@@ -1,13 +1,5 @@
 #!/usr/bin/env python
 # coding: utf-8
-import streamlit as st
-
-# Set page configuration
-st.set_page_config(page_title="My Streamlit App", page_icon=":guardsman:", layout="wide", page_bg_color="#f7f7f7", page_bg_image="D:\OIP.jpg")
-
-# Add content to the page
-st.title("My Streamlit App")
-st.write("This is some content.")
 
 
 import pickle
