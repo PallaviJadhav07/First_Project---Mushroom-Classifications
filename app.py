@@ -1,20 +1,5 @@
 #!/usr/bin/env python
 # coding: utf-8
-def add_bg_from_url():
-    st.markdown(
-         f"""
-         <style>
-         .stApp {{
-             background-image: url("https://img.freepik.com/premium-photo/shitake-tasty-mushroom-isolated-white-background_188078-18051.jpg");
-             background-attachment: fixed;
-             background-size: cover
-         }}
-         </style>
-         """,
-         unsafe_allow_html=True
-     )
-
-add_bg_from_url()
 
 import pickle
 #libraries
